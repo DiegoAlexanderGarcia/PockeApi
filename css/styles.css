@@ -47,16 +47,18 @@ body {
 }
 
 #info-poke {
+    display: flex;
     position: relative;
     width: 100%;
+    bottom: -1rem;
 }
 
 #pokemon-id {
-    position: absolute;
+    position: relative;
     font-size: clamp(0.75rem, 2vw, 1rem);
     color: rgb(121, 118, 118);
     bottom: -8rem;
-    left: 20%;
+    left: -245%;
     transform: translateX(-50%);
 }
 
@@ -129,3 +131,4 @@ body {
         padding: 0.25rem 0.5rem;
     }
 }
+
